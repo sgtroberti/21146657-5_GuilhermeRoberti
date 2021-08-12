@@ -1,0 +1,18 @@
+.navbar {
+    background-color: rgba(255, 0, 0, 0.137) !important;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    color: #830e0e !important;
+}
+
+.centralizar {
+    margin: auto;
+}
+
+.navbar-foot{
+    margin: 0;
+    padding: 0;
+}
