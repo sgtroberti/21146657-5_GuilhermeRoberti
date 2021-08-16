@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
-
 body {
-    background-color:  black;
+    background-color: #8F643D;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #8F643D url(../../21146657-5_GuilhermeRoberti/images/cake.webp) no-repeat center center fixed ;
+    -webkit-background-size: center;
+    -moz-background-size: center;
+    -o-background-size: center;
+    background-size: center;
 }
 
 .navbar {
-    background-color: #be5a3275 !important;
+    background-color: #673D2F !important;
     font-family: 'Grandstander', cursive;
     color: white;
-
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: 25px;
     font-weight: 600;
     color: white !important;
     padding-left: 10px;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
     padding-left: 50px !important;
 }
@@ -27,7 +34,7 @@ body {
     margin: auto;
 }
 
-.navbar-foot{
+.navbar-foot {
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -35,19 +42,40 @@ body {
 #videoBG {
     position: fixed;
     z-index: -1;
-    top:-6%; left: 0%;
+    top: -6%;
+    left: 0%;
 }
 
-@media (min-aspect-ratio: 16/9){
-    #videoBG{
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
         width: 100%;
         height: auto;
     }
 }
 
-@media (max-aspect-ratio: 16/9){
-    #videoBG{
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
         width: auto;
         height: 100%;
     }
+}
+
+.quem_somos {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    padding: 10px;
+    background-color: #2A212C;
+    width: 30%;
+    height: 60%;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.mapa {
+    position: relative;
+    left: 50%;
+    top: 10%;
 }
