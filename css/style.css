@@ -79,3 +79,23 @@ body {
     left: 50%;
     top: 10%;
 }
+
+.local {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    padding: 10px;
+    background-color: #2A212C;
+    width: 30%;
+    height: 60%;
+    color: #fff;
+    text-shadow: #000 2px 2px 2px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.mapa2 {
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
