@@ -11,7 +11,7 @@ function geraCardapio($array)
     foreach ($array as $produto) {
 ?>
         <!-- Cria formulário para enviar dados para página de detalhes -->
-        <form action="../../21146657-5_GuilhermeRoberti/pages/detalhes.php" method="POST">
+        <form action="?pagina=detalhes" method="POST">
             <input type="text" name="produto" value="<?= $produto['produto'] ?>" hidden>
             <input type="text" name="unidade" value="<?= $produto['unidade'] ?>" hidden>
             <input type="text" name="valor" value="<?= $produto['valor'] ?>" hidden>

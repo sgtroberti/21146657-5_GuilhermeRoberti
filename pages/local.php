@@ -1,6 +1,3 @@
-<?php
-require_once("../../21146657-5_GuilhermeRoberti/pages/header.php");
-?>
 <div class="container centralizar local">
     <br>
     <h3>Localização</h3>
@@ -27,8 +24,3 @@ require_once("../../21146657-5_GuilhermeRoberti/pages/header.php");
         </div>
     </div>
 </div>
-
-
-<?php
-require_once("../../21146657-5_GuilhermeRoberti/pages/footer.php");
-?>

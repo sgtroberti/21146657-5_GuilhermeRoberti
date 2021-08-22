@@ -25,17 +25,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 centralizar">
                     <li class="nav-item">
-                        <a class="nav-link" href="../../21146657-5_GuilhermeRoberti/pages/cardapio.php">Descubra nosso cardápio!</a>
+                        <a class="nav-link" href="?pagina=cardapio">Descubra nosso cardápio!</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../21146657-5_GuilhermeRoberti/pages/quem_somos.php">Quem somos</a>
+                        <a class="nav-link" href="?pagina=quem_somos">Quem somos</a>
                     </li>
                     <li class="nav-item">
                         <!-- Abre nova aba para conversa no whatsapp -->
                         <a class="nav-link" href="https://api.whatsapp.com/send?phone=5545987654321" target="_blank">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../../21146657-5_GuilhermeRoberti/pages/local.php">Localização</a>
+                        <a class="nav-link" href="?pagina=local">Localização</a>
                     </li>
                 </ul>
             </div>

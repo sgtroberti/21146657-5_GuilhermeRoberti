@@ -1,6 +1,3 @@
-<?php
-require_once("../../21146657-5_GuilhermeRoberti/pages/header.php");
-?>
 <div class="container centralizar quem_somos">
     <br>
     <h3>Quem somos!</h3>
@@ -29,8 +26,3 @@ require_once("../../21146657-5_GuilhermeRoberti/pages/header.php");
         </div>
     </div>
 </div>
-
-
-<?php
-require_once("../../21146657-5_GuilhermeRoberti/pages/footer.php");
-?>
