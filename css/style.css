@@ -32,6 +32,9 @@ body {
 
 .centralizar {
     margin: auto;
+    margin-left: 100px;
+    text-align: center;
+
 }
 
 .navbar-foot {
@@ -98,4 +101,13 @@ body {
     position: relative;
     left: 15%;
     top: 10%;
+}
+
+.img {
+    width: 200px;
+}
+
+.cartao {
+    width: 700px !important;
+    margin: auto;
 }
