@@ -31,7 +31,8 @@
                         <a class="nav-link" href="../../21146657-5_GuilhermeRoberti/pages/quem_somos.php">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=5545987654321">Contato</a>
+                        <!-- Abre nova aba para conversa no whatsapp -->
+                        <a class="nav-link" href="https://api.whatsapp.com/send?phone=5545987654321" target="_blank">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../../21146657-5_GuilhermeRoberti/pages/local.php">Localização</a>

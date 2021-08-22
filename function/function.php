@@ -5,7 +5,7 @@
 function geraCardapio($array)
 {
     echo "<br><br>";
-    echo "<div class='row row-cols-1 row-cols-md-3 g-4 centralizar'>";
+    echo "<div class='row row-cols-1 row-cols-md-4 g-4 centralizar'>";
 
     //Percorre o array de dados para montar os cards
     foreach ($array as $produto) {

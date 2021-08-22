@@ -14,6 +14,8 @@ if (isset($_POST['produto']) && isset($_POST['unidade']) && isset($_POST['valor'
 }
 ?>
 <br><br>
+
+<!-- Cria cartão centralizado -->
 <div class="card text-center cartao">
     <div class="card-header">
         <h2><?= $produto ?></h2>
@@ -23,7 +25,9 @@ if (isset($_POST['produto']) && isset($_POST['unidade']) && isset($_POST['valor'
         <h5 class="card-title">Preço por <?= $unidade ?>: R$ <?= $valor ?>,00</h5>
         <p class="card-text"><?= $desc ?></p>
         <a href="../../21146657-5_GuilhermeRoberti/pages/cardapio.php" class="btn btn-primary">Voltar</a>
-        <a href="https://api.whatsapp.com/send?phone=5545987654321&text=Quero%20experimentar%20o%20bolo%20<?= $produto ?>" class="btn btn-success">Peça pelo WhatsApp</a>
+
+        <!-- Este link abre uma conversa em nova aba no whatsapp com o nome do produto selecionado -->
+        <a href="https://api.whatsapp.com/send?phone=5545987654321&text=Quero%20experimentar%20o%20bolo%20<?= $produto ?>" target="_blank" class="btn btn-success">Peça pelo WhatsApp</a>
     </div>
  
 </div>

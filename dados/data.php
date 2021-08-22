@@ -1,4 +1,5 @@
 <?php
+//Inicialização dos vetores com informações dos produtos
 $produto1 = [
     "produto" => "Bolo de Chocolate",
     "unidade" => "Kg",
@@ -23,5 +24,15 @@ $produto3 = [
     "img" => "boloCenoura",
 ];
 
+$produto4 = [
+    "produto" => "Bolo de Milho",
+    "unidade" => "Kg",
+    "valor" => 15,
+    "desc" => "Delicioso bolo de Milho, feito com milho importado. Vendido por Kg, consulte personalizações!",
+    "img" => "boloMilho",
+];
+
+
+//Inicialização do vetor que irá armazenar todos os produtos para poder usar durante a execução do site
 $dados = [];
-array_push($dados, $produto1, $produto2, $produto3);
+array_push($dados, $produto1, $produto2, $produto3, $produto4);
