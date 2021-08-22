@@ -15,7 +15,7 @@ if (isset($_POST['produto']) && isset($_POST['unidade']) && isset($_POST['valor'
 <div class="card text-center cartao">
     <div class="card-header">
         <h2><?= $produto ?></h2>
-        <img width="400px" src="../../21146657-5_GuilhermeRoberti/images/<?= $img ?>.jpg" alt="Imagem">
+        <img width="400px" src="./images/<?= $img ?>.jpg" alt="Imagem">
     </div>
     <div class="card-body">
         <h5 class="card-title">Preço por <?= $unidade ?>: R$ <?= $valor ?>,00</h5>
